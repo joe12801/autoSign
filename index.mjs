@@ -1,6 +1,6 @@
 import got from "got";
 let cookie = process.env.COOKIE;
-
+###
 async function getGrowthSign() {
   let url = "https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign?";
   const querystring = { pr: "ucpro", fr: "pc", uc_param_str: "" };
